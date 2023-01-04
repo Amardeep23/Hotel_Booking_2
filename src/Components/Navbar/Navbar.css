@@ -1,0 +1,56 @@
+.navpar_p{
+    background-color: rgb(38,39,43);
+    box-shadow: 10px 5px 40px rgb(14, 14, 14);
+    color: whitesmoke;
+}
+.navbar_logo_img{
+    border-radius: 9px;
+}
+.navbar-nav{
+    font-size: 1.3rem;
+    font-family:cursive;
+}
+.placeholde_navbar{
+    background-color: rgba(163, 160, 160, 0.597);
+    border: none;
+}
+.placeholde_navbar .placeholde_navbar:active{
+    border: none;
+    background-color: rgba(72, 72, 72, 0.597);
+}
+/* .placeholde_navbar::placeholder{
+    background-color: rgba(72, 72, 72, 0.597)!important;
+} */
+input[type="date"]{
+    border: none;
+    border-radius: 4px;
+    height: 2.3rem;
+    transform: translateY(-0.5rem);
+    width: 19vw;
+}
+@media only screen and (min-width:1140px){
+    input[type="date"]{
+        width: 18vw;
+    }
+}
+@media only screen and (min-width:1250px){
+    input[type="date"]{
+        width: 17vw;
+    }
+}
+@media only screen and (min-width:1250px){
+    input[type="date"]{
+        width: 16vw;
+    }
+}
+@media only screen and (min-width:1380px){
+    input[type="date"]{
+        width: 15vw;
+    }
+}
+input[type="date"]:not(.has-value):before{
+    font-weight: 550;
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+    content: attr(placeholder);
+  }

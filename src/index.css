@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: cursive;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a:hover{
+  color: rgb(255,209,24)!important;
+}
